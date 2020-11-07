@@ -24,7 +24,7 @@ readonly PhotoUrl = "http://localhost:5001/Photos";
   }
 
   deleteDepartment(val:any){
-    return this.http.delete(this.APIUrl+'/Department', val);
+    return this.http.delete(this.APIUrl+'/Department/'+val);
   }
 
 
